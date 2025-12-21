@@ -417,6 +417,98 @@ do {
 // Pro tip: Infinite loops are not a feature, they're a cry for help
 // If your fan starts sounding like a jet engine, you probably forgot to increment something 🚁
 
+// 🔥 HIGHER ORDER LOOPS - let's get this bread 🔥
+
+// ✨ for...of loop - the OG way to vibe through arrays ✨
+// let arr=[1,2,3,4,5,6]
+// for (const element of arr) {
+//     console.log(element);   // just printing hits, no cap
+// }
+
+// let sai='saikumar'
+// for (const element of sai) {
+//     console.log(element);   // works on strings too, fr fr
+// }
+
+// 🗺️ MAP SUPREMACY - this ain't your Google Maps 🗺️
+// const map=new Map()
+// map.set('in','india')
+// map.set('in','indssia') // oops typo but it updates anyway, mid tbh
+// map.set('fr','france')
+// console.log(map);
+
+// for (const [key,value] of map) {
+//     console.log(key,value);  // destructuring hits different 💯
+// }
+
+// 📦 OBJECTS - the real MVPs 📦
+// const objet={
+//     sai:'name',
+//     age:18,
+//     phonenumber:'not requires'  // privacy king 👑
+// }
+
+// // for (const element of objet) {
+// //     console.log(element);  // L + ratio + not iterable + touch grass
+// // }
+
+// 🔑 for...in - when you need those keys bestie 🔑
+// for (const key in objet) {
+//     if (!Object.hasOwn(objet, key)) continue;  // safety first no cap
+//     const element = objet[key];
+//     console.log(element);  // serving values on a platter
+// }
+
+// const arrr=[1,2,3,4,9,6]
+// for (const key in arr) {
+//  console.log(arr[key]);  // works but why tho? sus behavior ngl
+// }
+
+// 💅 forEach - the slay method 💅
+// const niikkk=['js','na','why','no','ss','sssss']
+// niikkk.forEach( (item)=> {console.log(item);})  // clean and unbothered
+
+// 📚 OBJECT ARRAYS - peak organization energy 📚
+// const asa=[
+//     {
+//         lang:'cpp',
+//         lanfile:'.cpp'
+//     },
+//     {
+//         lang:'c',
+//         lanfile:'.c'
+//     },
+//     {
+//         lang:'java',
+//         lanfile:'.java'
+//     },
+// ]
+// asa.forEach(element => {
+//     console.log(element.lang);    // spitting facts
+//     console.log(element.lanfile); // extension drip 🔥
+// });
+
+// 🎯 FILTER - only the real ones pass through 🎯
+// const arr=[1,2,3,4,5,6]
+// const arr1=arr.filter((item)=>item>=5)  // gatekeeping numbers below 5, periodt
+// console.log(arr1);
+
+// 🚀 MAP - transformation szn 🚀
+// const aa=arr.map((item)=>item+10)  // glow up for every number
+// console.log(aa);
+
+// ⛓️ CHAINING - combo moves like it's Mortal Kombat ⛓️
+// const list=arr.map((item)=>item*10)    // multiply = stonks 📈
+//              .map((item)=>item+1)       // +1 for good luck ✨
+//              .filter((item)=>item>=40)  // only the big boys allowed
+// console.log(list);  // this code bussin fr fr
+
+// 🧮 REDUCE - the final boss of array methods 🧮
+// // for when you need to sum it up and give main character energy
+// // const total = arr.reduce((acc, curr) => acc + curr, 0)  // would go crazy here
+
+
+
 // ============================================
 // 🎬 THE END - You're Built Different Now 🎉
 // ============================================
