@@ -86,7 +86,6 @@ MIT License - basically you can do whatever, just don't be weird about it
 
 Hit me up if you need anything:
 - Email: bro seriouldy you need this??
-- Twitter: na bro i am not on anysocial media.
 
 ---
 
