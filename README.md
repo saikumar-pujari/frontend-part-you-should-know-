@@ -23,7 +23,7 @@ You're gonna need:
 - A vibe and a dream
 
 ### Installation
-
+Don't  do this instead use the github.dev in url it will show the code directly and can use the code with copy and paste!
 ```bash
 # Clone this bad boy
 git clone https://github.com/saikumar-pujari/frontend-part-you-should-know-.git
