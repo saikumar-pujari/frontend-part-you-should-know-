@@ -47,6 +47,7 @@ import { YourCoolThing } from './your-module';
 const app = new YourCoolThing();
 app.doTheThing(); // and it actually works, slay
 ```
+i know this code is for React but still it's required man!!! 
 
 ## 🤝 Contributing
 
@@ -86,7 +87,6 @@ MIT License - basically you can do whatever, just don't be weird about it
 
 Hit me up if you need anything:
 - Email: bro seriouldy you need this??
-- Twitter: na bro i am not on anysocial media
 
 ---
 
