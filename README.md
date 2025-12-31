@@ -47,6 +47,7 @@ import { YourCoolThing } from './your-module';
 const app = new YourCoolThing();
 app.doTheThing(); // and it actually works, slay
 ```
+i know this code is for React but still it's required man!!! 
 
 ## 🤝 Contributing
 
